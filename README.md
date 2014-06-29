@@ -1,4 +1,4 @@
 TDD-Scala-exercise
 ==================
 
-DSD exercise for TDD and Scala
+DSD exercise for TDD and Scala.
