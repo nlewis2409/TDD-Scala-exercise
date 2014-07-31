@@ -1,0 +1,46 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/spec/UnitSpec.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/spec/UnitSpec.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/spec/UnitSpec.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 3 sources: invalidated sources (3) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 3 Scala sources to /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/scala-2.10/test-classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 616b17c1, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/classes:/Users/neillewis/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/neillewis/Documents/Github/TDD-Scala-exercise/target/scala-2.10/test-classes:/Users/neillewis/Documents/Github/TDD-Scala-exercise/target/scala-2.10/classes:/Users/neillewis/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/Users/neillewis/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar:/Users/neillewis/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.1.0.jar:/Users/neillewis/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.3.jar:/Users/neillewis/.ivy2/cache/org.scalamock/scalamock-scalatest-support_2.10/jars/scalamock-scalatest-support_2.10-3.0.1.jar:/Users/neillewis/.ivy2/cache/org.scalamock/scalamock-core_2.10/jars/scalamock-core_2.10-3.0.1.jar:/Users/neillewis/.ivy2/cache/org.mockito/mockito-all/jars/mockito-all-1.9.5.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.787097 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/spec/UnitSpec.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala by /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/spec/UnitSpec.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala by /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/spec/UnitSpec.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/spec/UnitSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise1/NameMatchSpec.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/test/scala/exercise2/CountryMatchSpec.scala)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

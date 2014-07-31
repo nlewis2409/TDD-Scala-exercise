@@ -1,0 +1,506 @@
+[0m[[0minfo[0m] [0mUpdating {file:/Users/neillewis/Documents/Github/TDD-Scala-exercise/}tdd-scala-exercise...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: exercise-kata#exercise-kata_2.10;1.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3f2f0484[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/scala-library/2.10.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom (2.10.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.3!scala-library.pom(pom.original) (603ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/scala-library/2.10.3/jars/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in public[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving joda-time#joda-time;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: joda-time#joda-time;2.3 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/joda-time/joda-time/2.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for joda-time#joda-time;2.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom (2.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.3!joda-time.pom(pom.original) (440ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/joda-time/joda-time/2.3/jars/joda-time.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	found joda-time#joda-time;2.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.joda#joda-convert;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.joda#joda-convert;1.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.joda/joda-convert/1.2/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.joda#joda-convert;1.2[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom (1.2)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.pom(pom.original) (405ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.joda/joda-convert/1.2/jars/joda-convert.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	found org.joda#joda-convert;1.2 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalatest#scalatest_2.10;2.1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.1.0 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scalatest/scalatest_2.10/2.1.0/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalatest#scalatest_2.10;2.1.0[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalatest#scalatest_2.10;2.1.0[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.pom (2.1.0)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.1.0!scalatest_2.10.pom(pom.original) (487ms)[0m
+[0m[[0minfo[0m] [0mResolving org.sonatype.oss#oss-parent;7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;7 {}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.sonatype.oss#oss-parent;7[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scalatest/scalatest_2.10/2.1.0/jars/scalatest_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalatest#scalatest_2.10;2.1.0 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/scala-reflect/2.10.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom (2.10.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.3!scala-reflect.pom(pom.original) (567ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/scala-reflect/2.10.3/jars/scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in public[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scalamock#scalamock-scalatest-support_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalamock#scalamock-scalatest-support_2.10;3.0.1 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scalamock/scalamock-scalatest-support_2.10/3.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalamock#scalamock-scalatest-support_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalamock#scalamock-scalatest-support_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.pom (3.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalamock#scalamock-scalatest-support_2.10;3.0.1!scalamock-scalatest-support_2.10.pom(pom.original) (572ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scalamock/scalamock-scalatest-support_2.10/3.0.1/jars/scalamock-scalatest-support_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalamock#scalamock-scalatest-support_2.10;3.0.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scalamock#scalamock-core_2.10;3.0.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scalamock#scalamock-core_2.10;3.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scalamock/scalamock-core_2.10/3.0.1/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scalamock#scalamock-core_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scalamock#scalamock-core_2.10;3.0.1[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.pom (3.0.1)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scalamock#scalamock-core_2.10;3.0.1!scalamock-core_2.10.pom(pom.original) (478ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scalamock/scalamock-core_2.10/3.0.1/jars/scalamock-core_2.10.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scalamock#scalamock-core_2.10;3.0.1 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.0.M5b [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.0.M5b [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.0.M5b [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.mockito#mockito-all;1.9.5 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.mockito#mockito-all;1.9.5 {test=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.mockito/mockito-all/1.9.5/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.mockito#mockito-all;1.9.5[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.mockito#mockito-all;1.9.5[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom (1.9.5)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.mockito#mockito-all;1.9.5!mockito-all.pom(pom.original) (784ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.mockito/mockito-all/1.9.5/jars/mockito-all.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar[0m
+[0m[[0mdebug[0m] [0m	found org.mockito#mockito-all;1.9.5 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->joda-time#joda-time;2.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.joda#joda-convert;1.2 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalatest#scalatest_2.10;2.1.0->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalatest#scalatest_2.10;2.1.0 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.0.M5b [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.0.M5b [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalamock#scalamock-core_2.10;3.0.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-core_2.10;3.0.1->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.0.M5b [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scalamock#scalamock-scalatest-support_2.10;3.0.1->org.scalatest#scalatest_2.10;2.1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scalamock#scalamock-scalatest-support_2.10;3.0.1 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.mockito#mockito-all;1.9.5 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for exercise-kata#exercise-kata_2.10;1.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/scala-compiler/2.10.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom (2.10.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.3!scala-compiler.pom(pom.original) (492ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/scala-compiler/2.10.3/jars/scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/jline/2.10.3/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: found md file for org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m		=> http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.pom (2.10.3)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.pom ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.3!jline.pom(pom.original) (449ms)[0m
+[0m[[0mdebug[0m] [0m		tried /Users/neillewis/.ivy2/local/org.scala-lang/jline/2.10.3/jars/jline.jar[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in public[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies exercise-kata#exercise-kata_2.10;1.0->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.3/scala-library-2.10.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.10.3!scala-library.jar (29957ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/joda-time/joda-time/2.3/joda-time-2.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] joda-time#joda-time;2.3!joda-time.jar (2711ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/joda/joda-convert/1.2/joda-convert-1.2.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.joda#joda-convert;1.2!joda-convert.jar (631ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalatest/scalatest_2.10/2.1.0/scalatest_2.10-2.1.0.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalatest#scalatest_2.10;2.1.0!scalatest_2.10.jar (23040ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalamock/scalamock-scalatest-support_2.10/3.0.1/scalamock-scalatest-support_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalamock#scalamock-scalatest-support_2.10;3.0.1!scalamock-scalatest-support_2.10.jar (458ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.mockito#mockito-all;1.9.5!mockito-all.jar (6422ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.10.3/scala-reflect-2.10.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar (9272ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scalamock/scalamock-core_2.10/3.0.1/scalamock-core_2.10-3.0.1.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scalamock#scalamock-core_2.10;3.0.1!scalamock-core_2.10.jar (1810ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.10.3/scala-compiler-2.10.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar (46480ms)[0m
+[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.jar ...[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	public: downloading http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo1.maven.org/maven2/org/scala-lang/jline/2.10.3/jline-2.10.3.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.scala-lang#jline;2.10.3!jline.jar (725ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 11463ms :: artifacts dl 121536ms[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 compile produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 runtime produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 test produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 provided produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 optional produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 compile-internal produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 runtime-internal produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 test-internal produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 plugin produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 sources produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 docs produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 pom produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for exercise-kata#exercise-kata_2.10;1.0 scala-tool produced in /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/resolution-cache/reports/exercise-kata-exercise-kata_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (11463ms resolve - 121536ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m

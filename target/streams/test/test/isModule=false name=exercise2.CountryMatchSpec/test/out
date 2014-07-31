@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0m[32mCountryMatchSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mcontinent[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return south america when brazil is input (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return europe when wales is input (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return asia when china is input (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return asia when india is input (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return south america when argentina is input (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return europe when france is input (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return south america when peru is input (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return continent could not be established when atlantic ocean is input (pending)[0m[0m

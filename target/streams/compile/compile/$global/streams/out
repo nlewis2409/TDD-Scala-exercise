@@ -1,0 +1,62 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise1patternmatch/NameMatch.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise2patternmatch/CountryMatch.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise1patternmatch/NameMatch.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise2patternmatch/CountryMatch.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise1patternmatch/NameMatch.scala, /Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise2patternmatch/CountryMatch.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 2 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 2 Scala sources to /Users/neillewis/Documents/Github/TDD-Scala-exercise/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mPlain interface to Scala compiler 2.10.3  with arguments: [0m
+[0m[[0mdebug[0m] [0m	-nowarn[0m
+[0m[[0mdebug[0m] [0m	-d[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_2e5fdaeb[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/classes:/Users/neillewis/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/neillewis/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/xsbti/interface-0.13.5.jar:/Users/neillewis/.sbt/boot/scala-2.10.4/org.scala-sbt/sbt/0.13.5/compiler-interface-src/compiler-interface-src-0.13.5.jar:/Users/neillewis/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.10.3.jar:/Users/neillewis/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.3.jar:/Users/neillewis/.ivy2/cache/org.scala-lang/jline/jars/jline-2.10.3.jar:/Users/neillewis/.ivy2/cache/org.fusesource.jansi/jansi/jars/jansi-1.4.jar[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/API.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/Analyzer.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/Command.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/Compat.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/CompilerInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/ConsoleInterface.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/DelegatingReporter.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/Dependency.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/ExtractAPI.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/ExtractUsedNames.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/LocateClassFile.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/Log.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/Message.scala[0m
+[0m[[0mdebug[0m] [0m	/var/folders/rf/q99683kx5xn_64h7pzndn8q00000gn/T/sbt_d66665a3/xsbt/ScaladocInterface.scala[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 2ca30848, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_60.jdk/Contents/Home/jre/classes:/Users/neillewis/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.3.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/neillewis/Documents/Github/TDD-Scala-exercise/target/scala-2.10/classes:/Users/neillewis/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.3.jar:/Users/neillewis/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.2.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 25.091541 s[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise1patternmatch/NameMatch.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise1patternmatch/NameMatch.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mInvalidating by inheritance (transitively)...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise2patternmatch/CountryMatch.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/Users/neillewis/Documents/Github/TDD-Scala-exercise/src/main/scala/exercise2patternmatch/CountryMatch.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m

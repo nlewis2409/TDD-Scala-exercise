@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0m[32mNameMatchSpec:[0m[0m
+[0m[[0minfo[0m] [0m[32mfind[0m[0m
+[0m[[0minfo[0m] [0m[33m- should find the name James (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should find the name Helen (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should find the name Garnet (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should not find the name Bernie (pending)[0m[0m
+[0m[[0minfo[0m] [0m[32mgreet[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return good morning Mark (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return good afternoon Hazel (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return good evening Alice (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should return good night Arthur (pending)[0m[0m
+[0m[[0minfo[0m] [0m[33m- should not find the geeting Nos da (pending)[0m[0m
